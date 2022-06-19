@@ -1,0 +1,43 @@
+:root {
+    box-sizing: border-box;
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --mediumGrey: hsl(216, 12%, 54%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+    --primary: hsl(25, 97%, 53%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass, sans-serif;
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+}
+
+#ratingComponent {
+    margin: 0 auto;
+    padding: 1.5em;
+    width: 20%;
+    background: radial-gradient(at top, hsl(215, 20%, 17%), var(--darkBlue));
+    border-radius: .75em;
+}
+
+#star {
+    padding: 1.5em;
+    border-radius: 1em;
+    background-color: hsl(207, 29%, 18%);
+}
+
+p {
+    color: var(--mediumGrey);
+}
