@@ -22,7 +22,7 @@ body {
     font-family: Overpass, sans-serif;
 }
 
-#rating p {
+p {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
 }
