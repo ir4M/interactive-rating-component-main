@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col">
+            <div class="col mt-1">
               <h3 class="text-white fw-bold">How did we do?</h3>
               <p>Please let us know how we did with your support request. All feedback is appreciated
                 to help us improve our offering!</p>
@@ -55,8 +55,11 @@
               </div>
             </div>
             <div class="row mt-4">
-              <div class="col d-flex justify-content-center">
+              <div class="col d-flex justify-content-center mt-2">
                 <button id="submit" class="rounded-4 border-0 p-2 w-100 text-uppercase fw-bold" type="submit">Submit</button>
+              </div>
+              <div class="text-center">
+                <span id="feedback" class="text-white"></span>
               </div>
             </div>
           </form>
@@ -67,16 +70,29 @@
 
     <!-- Thank you state start -->
 
+
     <div id="thankYou" style="display: none">
-      <div class="container">
-        <div>
-          <img src="./static/images/illustration-thank-you.svg" alt="Thank you illustration">
-          <p>You selected <!-- Add rating here --> out of 5</p>
-
-          <h1>Thank you!</h1>
-
-          <p>  We appreciate you taking the time to give a rating. If you ever need more support,
-            don’t hesitate to get in touch!</p>
+      <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="center-box rounded-4 p-4 bg-ratingCard">
+          <div>
+            <div class="row mt-3">
+              <div class="col">
+                <img src="./static/images/illustration-thank-you.svg" class="mx-auto d-block py-2" alt="Thank you illustration">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col text-center">
+                <p class="rounded-4 bg-selection py-2 px-3 d-inline">You selected <!-- Add rating here --> <span id="valueRating"></span> out of 5</p>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col text-center">
+                <h3 class="text-white fw-bold mb-2">Thank you!</h3>
+                <p class="px-2">We appreciate you taking the time to give a rating. If you ever need more support,
+                  don’t hesitate to get in touch!</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

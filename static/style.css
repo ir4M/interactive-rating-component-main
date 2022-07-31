@@ -11,9 +11,9 @@ body {
     background-color: hsl(210, 32%, 21%);
 }
 
-
 .center-box {
     width: 400px;
+    height: 400px;
 }
 
 /* FONT STYLES*/
@@ -38,7 +38,7 @@ button[type="button"]:hover {
     color: hsl(0, 0%, 100%);
 }
 
-button[type="button"]:active {
+button[type="button"].active {
     background-color: hsl(217, 12%, 63%);
     color: hsl(0, 0%, 100%);
 }
@@ -52,5 +52,12 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* THANK YOU STATE */
+
+.bg-selection {
+    background-color: hsl(210, 32%, 21%);
     color: hsl(25, 97%, 53%);
 }
