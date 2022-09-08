@@ -49,6 +49,6 @@ function submitRating(event: Event): void {
         ratingPage.style.display = 'none';
         thankYouPage.style.display = 'block';
     } else {
-        feedback.innerText = 'Please choose a rating';
+        feedback.innerText = 'Please give a rating';
     }
 }

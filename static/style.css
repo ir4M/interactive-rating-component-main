@@ -3,7 +3,7 @@ body {
     background-color: hsl(216, 12%, 8%);
 }
 
-.bg-ratingCard {
+.bg-component {
     background: linear-gradient(hsl(215, 34%, 19%), hsl(213, 42%, 15%));
 }
 
@@ -11,6 +11,7 @@ body {
     background-color: hsl(210, 32%, 21%);
 }
 
+/* COMPONENT SIZE */
 .center-box {
     width: 400px;
     height: 400px;
@@ -33,7 +34,7 @@ button[type="button"] {
     color: hsl(217, 12%, 63%);
 }
 
-button[type="button"]:hover {
+button[type="button"]:hover{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
@@ -55,9 +56,21 @@ button[type="submit"]:hover {
     color: hsl(25, 97%, 53%);
 }
 
-/* THANK YOU STATE */
+/* THANK YOU PAGE */
 
 .bg-selection {
     background-color: hsl(210, 32%, 21%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* ATTRIBUTION STYLES */
+ .attribution {
+     font-size: 11px; text-align: center; color: hsl(0, 0%, 100%);
+ }
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a:hover {
     color: hsl(25, 97%, 53%);
 }

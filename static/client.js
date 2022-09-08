@@ -40,6 +40,6 @@ function submitRating(event) {
         thankYouPage.style.display = 'block';
     }
     else {
-        feedback.innerText = 'Please choose a rating';
+        feedback.innerText = 'Please give a rating';
     }
 }
